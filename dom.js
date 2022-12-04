@@ -22,3 +22,11 @@ console.log(innertitle);
 
 innertitle[0].style.color = "green";
 innertitle[0].style.fontWeight = "bold";
+
+var list = document.getElementsByClassName("list-group-item");
+list[2].style.backgroundColor = "green";
+list[2].style.color = "white";
+for(let le of list){
+
+   le.style.fontWeight = "bold";
+}
