@@ -34,3 +34,11 @@ var list2 = document.getElementsByTagName("li");
 console.log(list2[4]);   
 list2[4].classList.add("list-group-item");
 list2[4].style.fontWeight = "bold"; 
+
+var list3 = document.querySelectorAll('li');
+list3[1].style.color = "green";
+list3[2].style.visibility = "hidden";
+
+for(var i = 0;i<list3.length;i=i+2){
+   list3[i].style.backgroundColor = "green";
+}
