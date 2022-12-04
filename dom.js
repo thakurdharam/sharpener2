@@ -30,3 +30,7 @@ for(let le of list){
 
    le.style.fontWeight = "bold";
 }
+var list2 = document.getElementsByTagName("li");
+console.log(list2[4]);   
+list2[4].classList.add("list-group-item");
+list2[4].style.fontWeight = "bold"; 
